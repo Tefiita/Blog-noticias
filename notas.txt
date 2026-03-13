@@ -1,0 +1,3 @@
+- En el home se debe agregar encabezados y resumenes de las noticias, al hacerle click se abre la noticia completa.
+- Todo usuario puede crear una noticia por lo que se debe crear una page donde vaya titulo, categoría, resumen y cuerpo de la noticia.
+- Todo usuario al entrar a la pagina de la noticia completa puede realizar un comentario de esto. 
