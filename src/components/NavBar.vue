@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/">Inicio</a>
+      <a class="navbar-brand" href="/noticias">Inicio</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -9,13 +9,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <RouterLink class="nav-link active" aria-current="page" to="/politica">Política</RouterLink>
+            <RouterLink class="nav-link active" aria-current="page" to="/noticias/politica">Política</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link" to="/deportivas">Deportivas</RouterLink>
+            <RouterLink class="nav-link" to="/noticias/deportiva">Deportiva</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link" to="/ciencia-tecnologia">Ciencia y Tecnología</RouterLink>
+            <RouterLink class="nav-link" to="/noticias/ciencia_tecnologia">Ciencia y Tecnología</RouterLink>
           </li>
           <li class="nav-item">
             <RouterLink class="nav-link" to="/crear-noticia">Crear Noticia</RouterLink>

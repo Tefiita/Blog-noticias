@@ -1,5 +1,6 @@
 <template>
-  <div class="container d-flex justify-content-center align-items-center vh-100">
+  <NavBar />
+  <div class="container d-flex justify-content-center align-items-center">
     <div class=" card mb-3 mt-3 p-4 rounded bg-white border-0 w-50 mx-auto shadow ">
 
       <label for="titulo"> Titulo de la Noticia </label>
@@ -19,7 +20,7 @@
       <div class="container mt-3">
         <select class="form-select" v-model="categoria" aria-label="Default select example">
           <option value="" disabled selected>Seleccione Categoría</option>
-          <option value="politica">Política</option>
+          <option value="Politica">Política</option>
           <option value="deportiva">Deportiva</option>
           <option value="ciencia_tecnologia">Ciencia y Tecnología</option>
         </select>
@@ -35,9 +36,13 @@
 <script>
 import { collection, addDoc } from 'firebase/firestore';
 import { db } from '../services/firestoreConfig';
+import NavBar from './NavBar.vue';
 
 export default {
   name: 'NoticiasForm',
+  components: {
+    NavBar
+  },
   data() {
     return {
       titulo: '',
