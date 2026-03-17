@@ -21,5 +21,6 @@ export default {
 <style scoped>
 button {
   border-color: black;
+
 }
 </style>
