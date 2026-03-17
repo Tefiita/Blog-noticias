@@ -5,17 +5,19 @@
   <main>
     <Noticias />
   </main>
+
 </template>
 
 <script>
 import Noticias from '@/components/Noticias.vue';
 import NavBar from '../components/NavBar.vue'
 
+
 export default {
   name: 'NoticiasView',
   components: {
     NavBar,
-    Noticias
+    Noticias,
 
   }
 }

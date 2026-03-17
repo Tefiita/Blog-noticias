@@ -45,6 +45,7 @@
       </div>
     </div>
   </div>
+
 </template>
 
 <script>
@@ -52,10 +53,12 @@ import { doc, getDoc } from 'firebase/firestore';
 import { db } from '../services/firestoreConfig';
 import NavBar from '@/components/NavBar.vue';
 
+
 export default {
   name: 'DetallesNoticias',
   components: {
-    NavBar
+    NavBar,
+
   },
   data() {
     return {
